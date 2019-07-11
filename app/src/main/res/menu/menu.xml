@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menuDelete"
+        android:title="삭제"
+        app:showAsAction="never"
+        android:icon="@drawable/delete"
+        />
+    <item
+        android:id="@+id/menuMemo"
+        android:title="메모"
+        app:showAsAction="always"
+        android:icon="@drawable/pen"
+        />
+    <item
+        android:id="@+id/menuDiary"
+        android:title="다이어리"
+        app:showAsAction="always"
+        android:icon="@drawable/diary"
+        />
+
+</menu>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title=""
+        android:icon="@drawable/home"
+        android:id="@+id/home"
+        android:enabled="true"/>
+    <item
+        android:title=""
+        android:icon="@drawable/account_search"
+        android:id="@+id/bbs"
+        android:enabled="true"/>
+    <item
+        android:title=""
+        android:icon="@drawable/comment_multiple"
+        android:id="@+id/chat"
+        android:enabled="true"/>
+    <item
+        android:title=""
+        android:icon="@drawable/heart"
+        android:id="@+id/heart"
+        android:enabled="true"/>
+    <item
+        android:title=""
+        android:icon="@drawable/account"
+        android:id="@+id/account"
+        android:enabled="true"/>
+</menu>
