@@ -159,7 +159,6 @@ public class ChatActivity extends AppCompatActivity {
     }
     //푸시알람
     void sendGcm(){
-
         Gson gson=new Gson();
         NotificationVO notification=new NotificationVO();
         System.out.println("touser....................."+toUserToken);
